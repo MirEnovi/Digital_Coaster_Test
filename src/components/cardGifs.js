@@ -1,17 +1,16 @@
 import React from 'react';
+import './cardGifs.css'
 
 const CardGifs = (props) => {
-  console.log(props)
   const card = props.gifs.map((gif, index) =>{
     return(
-      <figure key={`gif-${index}`}>
-        <img src={gif} alt='gif' />
+      <figure className='col s12 m4 l3 offset-m1' key={`gif-${index}`}>
+        <img className='img-gif' src={gif} alt='gif' />
       </figure>
     )
   })
   return(
     <div>
-      aqui hay gatitos
       {card}
     </div>
   );

@@ -13,7 +13,19 @@ class App extends Component {
 
 
   chargeGif = () => {
-    goGifs()
+    goGifs(0)
+      .then((response) => response.json())
+      .then((gifs) => {
+        this.setState({
+          gifsApp: gifs.data.map((g) => {
+            return g.images.fixed_width.url
+          })
+        });
+      });
+  };
+
+  chargeMoreGif = () => {
+    goGifs(5)
       .then((response) => response.json())
       .then((gifs) => {
         this.setState({
@@ -27,26 +39,26 @@ class App extends Component {
   render() {
     if (this.state.gifsApp.length > 0) {
       return (
-        <div className="App">
+        <div className='App'>
           <header>
-            <h1>SIGO FUNCIONANDO</h1>
+            <h1 className=''>gatitos.gif</h1>
           </header>
-          <section>
-            <p>
-              por si andabas con el pendiente y voy a poner gatitos
-            </p>
-            <CardGifs gifs={this.state.gifsApp}/>
+          <section className='container'>
+            <button className='waves-effect waves-ligh btn pink darken-4' onClick={this.chargeMoreGif}>Cargar más gatos</button>
+            <div className='row center-align'>
+              <CardGifs gifs={this.state.gifsApp}/>
+            </div>
           </section>
         </div>
       )
     } else {
       return (
-        <div className="App">
+        <div className='App'>
           <header>
-            <h1>SIGO FUNCIONANDO</h1>
+            <h1>gatitos.gif</h1>
           </header>
-          <section>
-            <button onClick={this.chargeGif}>Cargar gatos</button>
+          < section className = 'container'>
+            <button className='waves-effect waves-ligh btn pink darken-4' onClick={this.chargeGif}>Cargar gatos</button>
             <p>
               y no hay gatitos
             </p>
