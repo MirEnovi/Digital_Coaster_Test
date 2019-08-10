@@ -2,7 +2,7 @@
   "name": "gifcat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gitname.github.io/Digital_Coster_Test",
+  "homepage": "http://mirenovi.github.io/Digital_Coster_Test",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
