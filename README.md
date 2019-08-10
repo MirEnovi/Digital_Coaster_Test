@@ -13,7 +13,7 @@ Para este test se pide mostrar los primeros 5 gifs que devuele la API, cuando se
 
 ## Guía de usuario
 
-La aplicación esta deployada [aquí](https://mirenovi.github.io/Digital_Coster_Test/), y también se puede probar de manera local, clonando este repositorio.
+La aplicación esta deployada [aquí](https://mirenovi.github.io/Digital_Coaster_Test/), y también se puede probar de manera local, clonando este repositorio.
 
 
 ## Guía de instalación
@@ -29,8 +29,8 @@ Guía de instalación:
 
 - Clonar este repositorio.
 - Abrir la carpeta de trabajo en tu terminal y escribir lo siguiente.
-    - git clone https://github.com/MirEnovi/Digital_Coster_Test.git.
-    - cd Digital_Coster_Test.
+    - git clone https://github.com/MirEnovi/Digital_Coaster_Test.git.
+    - cd Digital_Coaster_Test.
     - npm install.
     - npm start.
 
