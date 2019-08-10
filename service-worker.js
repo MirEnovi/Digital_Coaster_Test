@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Digital_Coster_Test/precache-manifest.11d06ecc1a151b3b1f52059aeddb3df9.js"
+  "/Digital_Coster_Test/precache-manifest.d31072cb38f5689c336b4161cb855efa.js"
 );
 
 self.addEventListener('message', (event) => {

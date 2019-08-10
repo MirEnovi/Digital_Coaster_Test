@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "480afd3188b4c6a39bde56fdceaa14b3",
+    "revision": "9f4fb4dba0163f8a819f71a9eeaff492",
     "url": "/Digital_Coster_Test/index.html"
   },
   {
-    "revision": "7a8a9257e0918ad7b6f6",
+    "revision": "b74737d9a70f7511fb70",
     "url": "/Digital_Coster_Test/static/css/main.5facb584.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Digital_Coster_Test/static/js/2.9918f956.chunk.js"
   },
   {
-    "revision": "7a8a9257e0918ad7b6f6",
-    "url": "/Digital_Coster_Test/static/js/main.ac13f6e0.chunk.js"
+    "revision": "b74737d9a70f7511fb70",
+    "url": "/Digital_Coster_Test/static/js/main.6bd5b964.chunk.js"
   },
   {
     "revision": "adc2d6888f17307765ec",
