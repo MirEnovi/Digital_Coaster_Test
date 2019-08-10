@@ -49,4 +49,4 @@ Para este proyecto se uso:
 
 ## Versión
 
-### Release V1.1.2
+### Release V2.0.0
