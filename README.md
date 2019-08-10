@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# Gifs de Gatitos
 
-### `npm start`
+## Descripción y contexto
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Como desarrollador de Front End, en nuestro día a día nos encontraremos trabajando con servicios web REST y usando librerias de terceros.
+Para este test fue implementado la Giph API, pues los gifs de gatito son parte de nuestro workflow diario.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Para este test se pide mostrar los primeros 5 gifs que devuele la API, cuando se busca el termino "gato (cat)". 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Guía de usuario
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La aplicación esta deployada [aquí](https://mirenovi.github.io/Digital_Coster_Test/), y también se puede probar de manera local, clonando este repositorio.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Guía de instalación
 
-### `npm run eject`
+Para probar de manera local es necesario contar con:
+- [NodeJS](https://nodejs.org/es/).
+- y tu package manager preferido. En este proyecto se uso NPM.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- El resto de dependencias ya están en el package json.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Guía de instalación:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Clonar este repositorio.
+- Abrir la carpeta de trabajo en tu terminal y escribir lo siguiente.
+    - git clone https://github.com/MirEnovi/Digital_Coster_Test.git.
+    - cd Digital_Coster_Test.
+    - npm install.
+    - npm start.
 
-## Learn More
+Y listo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Dependencias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para este proyecto se uso:
+- [React](https://jedwatson.github.io/react-select/).
+- [NodeJS](https://nodejs.org/es/).
+- [NPM](https://www.npmjs.com/).
+- [Materialize](https://materializecss.com/getting-started.html).
+- [React-select](https://jedwatson.github.io/react-select/).
+- [React-GH-Pages](https://github.com/gitname/react-gh-pages).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Versión
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Release V1.1.0
