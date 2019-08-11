@@ -29,6 +29,9 @@ class App extends Component {
   }
 
   chargeState = (objFomr) => {
+    this.setState({
+      gifsApp: []
+    });
     goGifs([objFomr])
       .then((response) => response.json())
       .then((gifs) => {
