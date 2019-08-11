@@ -43,10 +43,9 @@ Para este proyecto se uso:
 - [NodeJS](https://nodejs.org/es/).
 - [NPM](https://www.npmjs.com/).
 - [Materialize](https://materializecss.com/getting-started.html).
-- [React-select](https://jedwatson.github.io/react-select/).
 - [React-GH-Pages](https://github.com/gitname/react-gh-pages).
 
 
 ## Versión
 
-### Release V2.0.0
+### Release V3.0.0
