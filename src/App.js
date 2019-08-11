@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <div>
         <header>
-          <h1 className=''>gatitos.gif</h1>
+          <h1>gatitos.gif</h1>
         </header>
         <section>
           <p>Podemos mostrarte otros gifs</p>
