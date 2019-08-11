@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Digital_Coaster_Test/precache-manifest.78c79c4070116185dbd6735e5dfc263b.js"
+  "/Digital_Coaster_Test/precache-manifest.b479ba2bd7b399afd9c82d30089a5fcc.js"
 );
 
 self.addEventListener('message', (event) => {
