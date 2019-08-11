@@ -35,7 +35,7 @@ figure {
   bottom: 0;
   left: 20px;
   right: 0;
-  width: 89%;
+  width: 88.8%;
   height: 180px;
   border-radius: 20px 40px 60px 40px;
   opacity: 0;
@@ -74,6 +74,10 @@ figure {
 
 @media screen and (min-width: 992px) {
   .form {
-    width: 65% !important;
+    width: 40% !important;
+  }
+
+  .overlay {
+    width: 88%;
   }
 }

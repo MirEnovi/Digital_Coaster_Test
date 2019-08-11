@@ -1,5 +1,4 @@
 
-
 # Gifs de Gatitos
 
 ## Descripción y contexto
@@ -44,8 +43,10 @@ Para este proyecto se uso:
 - [NPM](https://www.npmjs.com/).
 - [Materialize](https://materializecss.com/getting-started.html).
 - [React-GH-Pages](https://github.com/gitname/react-gh-pages).
+- [Sweetalert2-React](https://www.npmjs.com/package/sweetalert2-react).
+
 
 
 ## Versión
 
-### Release V3.1.0
+### Release V3.2.0
