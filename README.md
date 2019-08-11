@@ -43,10 +43,12 @@ Para este proyecto se uso:
 - [NPM](https://www.npmjs.com/).
 - [Materialize](https://materializecss.com/getting-started.html).
 - [React-GH-Pages](https://github.com/gitname/react-gh-pages).
-- [Sweetalert2-React](https://www.npmjs.com/package/sweetalert2-react).
+- [React-Confirm-Alert](https://github.com/GA-MO/react-confirm-alert/blob/master/Document-v1.md).
+
+
 
 
 
 ## Versión
 
-### Release V3.2.2
+### Release V3.3.0
