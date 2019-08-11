@@ -34,12 +34,12 @@ class Form extends Component {
         <SweetAlert
           show={this.state.show}
           title='Alerta'
-          text='No se que debo buscar. Podrías poner todos los datos :)'
+          text='No sé qué debo buscar. Podrías poner todos los datos :)'
           onConfirm={() => this.setState({ show: false })}
         />
         <form className='form container'>
           <input className='form-input' type='text' placeholder='Escribe un tema que quieras ver en gif' ref = {q}/>
-          <input className='form-input' type='number' placeholder='¿Cuantos gifs quieres ver?' ref = {limit}/>
+          <input className='form-input' type='number' placeholder='¿Cuántos gifs quieres ver?' ref = {limit}/>
           <button className='waves-effect waves-ligh btn pink darken-4' onClick={this.fn}> Buscar</button>
         </form>
       </div>
