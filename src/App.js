@@ -10,13 +10,12 @@ class App extends Component {
       gifsApp: [],
       query: [{
         q: 'cat',
-        limit: '10'
+        limit: '5'
       }],
     }
   }
 
   componentDidMount() {
-    console.log('se ejecuta did mount');
     goGifs(this.state.query)
       .then((response) => response.json())
       .then((gifs) => {
@@ -29,14 +28,17 @@ class App extends Component {
       });
   }
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log('se ejecuta did update');
-  }
-
   chargeState = (objFomr) => {
-    this.setState({
-      query:[objFomr]
-    });
+    goGifs([objFomr])
+      .then((response) => response.json())
+      .then((gifs) => {
+        this.setState({
+          gifsApp: gifs.data.map((g) => {
+            const gifsApp = [g.images.fixed_width.url, g.title];
+            return gifsApp
+          })
+        });
+      });
   };
 
 
