@@ -48,9 +48,9 @@ button:hover {
   position: absolute;
   top: 20px;
   bottom: 0;
-  left: 20px;
+  left: 21px;
   right: 0;
-  width: 88.8%;
+  width: 89.3%;
   height: 180px;
   border-radius: 20px 40px 60px 40px;
   opacity: 0;
@@ -93,6 +93,6 @@ button:hover {
   }
 
   .overlay {
-    width: 88%;
+    width: 88.2%;
   }
 }
