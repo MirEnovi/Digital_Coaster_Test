@@ -12,8 +12,23 @@ figure {
   padding: 20px !important;
 }
 
-.btn {
+button:hover {
+  opacity: 1 !important;
+  background: rgb(212, 94, 157) !important;
+}
+
+.boton {
   margin: 10px;
+  outline: none;
+  background: #880E4F !important;
+  border: none;
+  display: inline-block;
+  padding: 0px 36px;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .container {

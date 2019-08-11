@@ -3,6 +3,22 @@ import { confirmAlert } from 'react-confirm-alert'; // Import
 import './style.css';
 import './alert.css';
 
+// {
+//   title: 'Estoy confundido',
+//   message: 'No sé qué debo buscar, podrías poner todos los datos :).',
+// }
+
+const options = {
+  title: 'Estoy confundido',
+      message: 'No sé qué debo buscar, podrías poner todos los datos :).',
+      buttons: [
+        {
+          label: 'Oki',
+          onClick: () => console.log('boton funciona')
+        }
+      ]
+};
+
 
 class Form extends Component {
   constructor(props) {
@@ -19,10 +35,7 @@ class Form extends Component {
         limit: this.limit.current.value,
       });
     } else {
-      confirmAlert({
-        title: 'Estoy confundido',
-        message: 'No sé qué debo buscar, podrías poner todos los datos :).',
-      })
+      confirmAlert(options)
     }
 	}
 
@@ -33,7 +46,7 @@ class Form extends Component {
         <form className='form container'>
           <input className='form-input' type='text' placeholder='Escribe un tema que quieras ver en gif' ref = {q}/>
           <input className='form-input' type='number' placeholder='¿Cuántos gifs quieres ver?' ref = {limit}/>
-          <button className='waves-effect waves-ligh btn pink darken-4' onClick={this.fn}> Buscar</button>
+          <button className='boton btn' onClick={this.fn}> Buscar</button>
         </form>
       </div>
     );
