@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+
+// componentes
 import CardGifs from './components/cardGifs';
-import goGifs from './goGifs';
 import Form from './components/form';
+
+// llamado a la api
+import goGifs from './goGifs';
+
 
 class App extends Component {
   constructor(props) {
@@ -15,6 +20,7 @@ class App extends Component {
     }
   }
 
+  // llamado inicial con los 5 gifs de gatitos
   componentDidMount() {
     goGifs(this.state.query)
       .then((response) => response.json())
@@ -28,10 +34,12 @@ class App extends Component {
       });
   }
 
-  chargeState = (objFomr) => {
+  chargeNewGifs = (objFomr) => {
+    // limpia el estado para quita resultado anterior de la vista
     this.setState({
       gifsApp: []
     });
+    // hace el llamado con los nuevos parametros de busqueda
     goGifs([objFomr])
       .then((response) => response.json())
       .then((gifs) => {
@@ -53,11 +61,11 @@ class App extends Component {
         </header>
         <section>
           <p>Podemos mostrarte otros gifs</p>
-          <Form chargeState={this.chargeState}/>
+          <Form chargeNewGifs={this.chargeNewGifs}/>
         </section>
-        <div className='row'>
+        <section className='row'>
           <CardGifs gifs={this.state.gifsApp}/>
-        </div>
+        </section>
       </div>
     )
   }

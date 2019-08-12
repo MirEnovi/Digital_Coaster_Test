@@ -3,10 +3,10 @@
 
 ## Descripción y contexto
 
-Como desarrollador de Front End, en nuestro día a día nos encontraremos trabajando con servicios web REST y usando librerias de terceros.
-Para este test fue implementado la Giph API, pues los gifs de gatito son parte de nuestro workflow diario.
+Como desarrollador de Front End, en nuestro día a día nos encontraremos trabajando con servicios web REST y usando librerías de terceros. Para este test fue implementado la Giph API, pues los gifs de gatito son parte de nuestro workflow diario.
 
-Para este test se pide mostrar los primeros 5 gifs que devuele la API, cuando se busca el termino "gato (cat)". 
+
+Para este test se pide mostrar los primeros 5 gifs que devuelve la API, cuando se busca el término "gato (cat)".
 
 
 
@@ -51,4 +51,4 @@ Para este proyecto se uso:
 
 ## Versión
 
-### Release V3.5.0
+### Release V3.5.1
