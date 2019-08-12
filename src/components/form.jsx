@@ -9,8 +9,7 @@ const options = {
   title: 'Estoy confundido',
   message: 'No sé qué debo buscar, prueba llenar todos los campos :)',
   buttons: [{
-    label: 'Oki',
-    // onClick: () => console.log('boton funciona')
+    label: ' Ok ',
   }]
 };
 
